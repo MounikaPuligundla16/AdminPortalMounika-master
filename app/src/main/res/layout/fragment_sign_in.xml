@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_below="@+id/singInUpLayout"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp"
+    android:paddingTop="32dp"
+    android:background="@android:color/transparent">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:drawablePadding="8dp"
+        android:background="@drawable/edittext_background"
+        android:elevation="8dp"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:drawablePadding="8dp"
+        android:elevation="8dp"
+        android:background="@drawable/edittext_background"
+        android:padding="8dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/sign_in"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:background="@drawable/button_background" />
+
+</LinearLayout>
